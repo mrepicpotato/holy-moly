@@ -1,7 +1,7 @@
 //Hello world test app
 
 #include <iostream>
-#include "test.h"
+#include "testheader.h"
 using namespace std;
 
 int main() {
