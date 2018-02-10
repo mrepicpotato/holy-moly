@@ -1,9 +1,13 @@
-#include <iostream>
+//Hello world test app
 
-using std::cout;	using std::endl;
+#include <iostream>
+#include "test.h"
+using namespace std;
 
 int main() {
-	cout << "Hello World" << endl;
+	cout << "Hello World!" << endl;
+	cout << addition(1,2) << endl;
 
+	cin.get();
 	return 0;
 }
